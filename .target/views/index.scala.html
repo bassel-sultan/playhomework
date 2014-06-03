@@ -1,0 +1,18 @@
+@(message:String)
+
+
+
+
+@main("Calculator..") { 
+@message
+    <h2>solve the equation </h2>
+    
+  <form action="@routes.Application.sum()" method="POST"> 
+     <input name="num1"> a<br>
+        <input name="num2"> b<br>
+        <input name="num3"> c<br>
+        <input type="submit" value="Sum">
+        </form>
+    
+
+}
